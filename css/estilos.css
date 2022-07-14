@@ -1,0 +1,202 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.info{
+	background-color: #E7C2A4;
+	color: #266EE4;
+	padding: 15px 0;
+	text-align: center;
+}
+
+header{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	align-items: center;
+}
+
+body{
+	font-family: 'Calibri';
+	background-image: url(../img/carrusel2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
+
+}
+
+.alinear-izquierd{
+    float: left;
+    width: 15%;
+}
+
+.redes a img{
+	width: 40px;
+	margin: 0 10px;
+}
+
+.alinear-izquierda{
+    float: left;
+    width: 15%;
+}
+  
+.romper-float{
+    clear: both;
+}
+  
+header{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	align-items: center;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+nav ul li{
+	padding: 0 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: rgb(42, 8, 157);
+}
+*/
+nav ul li a:hover{
+	text-decoration: underline;
+	/*color: chartreuse;
+	background-color: darkgoldenrod;*/
+}
+
+/* FORMULARIO*/
+
+.form-registro{
+    width: 400px;
+    background: #36434f;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white; 
+    font-size: 22px;
+    margin-bottom: 20px;
+    box-shadow: 7px 13px 37px;
+}
+
+.controles{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-registro p{
+  height: 40px;
+  text-align: center;
+  font-size: 18px;  
+  line-height: 40px;
+}
+
+.form-registro a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-registro .botom{
+     width: 100%;
+     background: #1f53c5;
+     border: none;
+     padding: 12px;
+     color: white;
+     margin: 16px 0;
+     font-size: 16px;
+}
+
+/*TALLA*/
+#titulotabla{
+    color: #343460;
+}
+
+.table{
+    background-color: rgb(242, 236, 225);
+    text-align: left;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 15px;
+}
+
+thead{
+    background-color: rgb(32, 92, 72);
+    border-bottom: solid 5px #0F362D;
+    color: whitesmoke;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #369681;
+    color: white
+}
+
+/* about Us*/
+.alinear-izq{
+    float: left;
+   
+    width: 200px;
+  }
+  
+  .rompe-float{
+    clear: both;
+    background-color: #bdc9c6;
+    color: rgb(29, 12, 12)
+  }
+
+  .romper-float{
+    clear: both;
+    
+  }
+
+  .alinear-izqu{
+    float: left;
+   
+    width: 800px;
+  }
+
+  .alinear-centro{
+	max-width: 500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	align-items: center;
+    
+}
+  
